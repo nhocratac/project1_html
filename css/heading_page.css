@@ -1,9 +1,10 @@
-
+ 
 /* GitHub-like heading style */
 h1 {
-  font-size: 32px;
-  font-weight: bold;
-  color: #24292e;
+  background-image: url('images/thỏ 7 màu sách.jpg');
+  background-clip: text;
+
+  background-color:white;
   text-align: center;
   margin-top: 50px;
 }
