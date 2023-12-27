@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .iframe-style
+    {
+        border: 6px solid red;
+    }
+    </style>
+</head>
+<body>
+<section>
+<from name="info" autocomplete="on" target="haha">  
+<label for="HoTen" name="hoten"  >Họ và Tên</label>
+<input type="text" name="hoten" id="hoten" placeholder="VD:Đoàn Huyền Hân">
+<br> <br>
+<label for="sex" name="gioitinh">Giới tính</label>
+<input type="radio" name="gioitinh" id="gioitinh1" value="nam">
+<label for="gioitinh1">Nam</label>
+<input type="radio" name="gioitinh" id="gioitinh2" value="nữ">
+<label for="gioitinh2">Nữ</label>
+<br> <br>
+<label for="email" name="email" >Email: </label>
+<input type="email" name="email" id="email" placeholder="VD:doanhuyenhan2002@gmail.com">
+<br> <br>
+<label for="old" name="tuoi" >Tuoi: </label>
+<input type="number" name="tuoi" id="old" placeholder="VD:20">
+<br> <br>
+<label for ="fav" name="sothich">Màu tóc bạn đang sở hữu</label>
+<select name="hair_color" id="fav">
+    <option value="black">black</option>
+    <option value="brown">brown</option>
+    <option value="blonde">blonde</option>
+    <option value="red">red</option>
+    <option value="white">white</option>
+    <option value="blue">blue</option>
+</select>
+<br> <br>
+<input type="submit">
+<br> <br>
+<section>
+<h2>Demo iframe</h2>
+<iframe name="haha" title="demo" class="iframe-style">
+</iframe>
+</section>
+</from>
+</section>
+</body>
+</html>

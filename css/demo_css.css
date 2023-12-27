@@ -19,6 +19,11 @@ p
 }
 
 h1 + p 
-{
+{    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     border: 0cqmin;
+    text-align: center;
+    padding: auto;
+    background-color:beige;  
+
 }
